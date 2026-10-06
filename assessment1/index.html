@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Informatics Academy - Day 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="day1-page">
+        <header>
+            <nav>
+                <a href="#schedule">Schedule</a>
+                <a href="#resources">Resources</a>
+                <a href="#help">Help</a>
+            </nav>
+        </header>
+        <section class="banner">
+            <h2>Welcome to Day 1</h2>
+            <p>Here is everything you need for your first day at Informatics Academy.</p>
+        </section>
+        <div id="important-note">
+            Please bring a laptop and a government ID to the front desk by 9:00 AM.
+        </div>
+        <section id="cards">
+            <div class="card">
+                <h2>Orientation</h2>
+                <p>Meet your mentor and get your workstation set up.</p>
+            </div>
+            <div class="card">
+                <h2>Tools Setup</h2>
+                <p>Install the editor, Git and the course VM image.</p>
+            </div>
+            <div class="card">
+                <h2>Team Intro</h2>
+                <p>Short introductions with your cohort and lead trainer.</p>
+            </div>
+        </section>
+        <section id="schedule">
+            <h2>Day 1 schedule</h2>
+            <table class="schedule-table" border="1">
+                <tr>
+                    <th>Time</th>
+                    <th>Session</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>9:00</td>
+                    <td>Orientation</td>
+                    <td data-status="mandatory">Mandatory</td>
+                </tr>
+                <tr>
+                    <td>10:30</td>
+                    <td>Tools Setup</td>
+                    <td data-status="mandatory">Mandatory</td>
+                </tr>
+                <tr>
+                    <td>12:00</td>
+                    <td>Lunch</td>
+                    <td data-status="optional">Optional</td>
+                </tr>
+                <tr>
+                    <td>13:00</td>
+                    <td>Team Intro</td>
+                    <td data-status="mandatory">Mandatory</td>
+                </tr>
+                <tr>
+                    <td>15:00</td>
+                    <td>Campus Tour</td>
+                    <td data-status="optional">Optional</td>
+                </tr>
+            </table>
+        </section>
+        <section id="resources">
+            <h2>Resources</h2>
+            <ul>
+                <li data-status="mandatory">Trainee Handbook (PDF)</li>
+                <li data-status="mandatory">VPN setup guide</li>
+                <li data-status="optional">Campus map</li>
+            </ul>
+            <button class="btn">Download all resources</button>
+        </section>
+    </div>
+</body>
+
+</html>
