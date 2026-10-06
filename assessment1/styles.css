@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    color: navy;
+    font-size: 20px;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 260px;
+    padding: 16px;
+    border: 2px solid navy;
+    margin: 20px;
+    background-color: rgb(46, 175, 52);
+}
+
+.banner {
+    padding: 24px;
+    margin-bottom: 12px;
+    border-bottom: 3px solid #1d4ed8;
+}
+
+#important-note {
+    font-weight: bold;
+    background-color: burlywood;
+}
+
+/* Mandatory list items */
+li[data-status="mandatory"] {
+    color: #c92a2a;
+}
+
+li[data-status="mandatory"]::marker {
+    content: "• ";
+    color: #e03131;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Navigation links */
+nav a {
+    text-decoration: none;
+    color: aqua;
+}
+
+/* Button & Hover (Darken background) */
+.btn {
+    background-color: #3b82f6;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #1d4ed8;
+}
+
+/* Schedule Table */
+.schedule-table td {
+    box-sizing: border-box;
+    width: 120px;
+    padding: 12px;
+    border: 1px solid #999;
+}
+
+.schedule-table tbody tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.03);
+}
